@@ -5,6 +5,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9518,9 +9519,6 @@ header h1 {
   padding: 10rem 40rem 5rem 40rem;
   font-size: 4.5rem;
 }
-header button {
-  button-radius: 1rem;
-}
 
 .opacity1 {
   background-color: black;
@@ -9550,6 +9548,28 @@ header button {
 
 .container .col-5 {
   padding-top: 1rem;
+}
+
+.coverScreen {
+  background: img-fluid;
+}
+
+.btn {
+  border-radius: 1rem;
+}
+
+.btn1 {
+  margin-left: 0.5rem;
+  padding: 1rem;
+}
+
+.btn2 {
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+.fa-circle {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

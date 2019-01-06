@@ -1,12 +1,21 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+@import url(https://fonts.googleapis.com/css?family=Courgette)
 
+@media (min-width: 1200px)
+.container
+    max-width: 1340px
+
+.txc
+    text-align: center
+
+//header
 header
     background-image: url(../../public/images/banner1.jpg)
-    background-size:cover
+    background-size: cover
     h1
-        padding: 10rem 40rem 5rem 40rem
-        font-size: 4.5rem
+        padding: 8rem 30rem 4rem 30rem
+        font-size: 3rem
 .opacity1
     background-color: black
     opacity: 0.8
@@ -23,20 +32,128 @@ header
     border-color: white
 .navIntraPadding
     padding: 1rem 1rem 1rem 1rem
+    &:hover
+        background-color: red
 .container
     .col-5
         padding-top: 1rem
 .coverScreen
     background: img-fluid
-
 .btn
-    border-radius: 1rem
+    border-radius: 2rem
+    font-size: 1.5rem
 .btn1
     margin-left: 0.5rem
+    margin-right: 1.5rem
     padding: 1rem
+
 .btn2
     margin-right: 0.5rem
     padding: 1rem
 .fa-circle
     color: white
+.quote1
+    font-family: Courgette
+    font-style: cursive
+.inQuote1
+    font-size: 6rem
+.inQuote2
+    font-size: 6rem
+    color: red
+.inQuote3
+    font-size: 4.5rem
+.inQuote4
+    font-size: 4.5rem
 
+// section2
+.vegetablesBackground
+    background-image: url(../../public/images/main_bg.jpg)
+    // background-size: cover
+    .container
+        padding-top: 7rem
+.whiteBG
+    background-color: white
+    margin-bottom: 7rem
+.titleOurStory
+    font-family: Courgette
+    text-align: center
+.titleRed
+    color: red
+    font-size: 4rem
+.ourStoryTitle
+    text-align: center
+    font-size: 3rem
+.ourStory
+    padding: 0rem 15rem 0rem 15rem
+.pOurStory
+    text-align: center
+    padding-top: 4rem
+// menulist
+i
+    color: #dee0e2
+    text-align: center
+    &:hover
+        color: red
+.fa-lg
+    padding-bottom: 1rem
+.WHITE
+    color: white
+.iconeFood
+    text-align: center
+    border-bottom: 1px solid #dee0e2
+    border-right: 1px solid #dee0e2
+    &:hover
+        border-right: 8px solid red
+.imgRound
+    border-radius: 5rem
+    height: 100%
+    width: 25%
+.pTabs
+    padding: 1rem 0rem 0rem 1rem
+.dFlex
+    display: flex
+    border-bottom: 1px solid #dee0e2
+    padding-bottom: 1rem
+    padding-top: 1rem   
+.deerPotatoes
+    font-weight: 700
+.price25
+    text-align: center
+    color: red
+    font-size: 1rem
+    background-color: #dee0e2
+    margin: auto
+    padding: 0rem 0.5rem 0rem 0.5rem
+      
+// 4corners
+.corner1
+    float: left
+.corner2
+    float: right
+.corner3
+    float: right
+.corner4
+    float: left
+.trianglesBottom
+    overflow: hidden
+
+// section 3
+.blackBG
+    background-image: url(../../public/images/team_background.jpg)
+    background-size: cover
+    display: flex
+.h1OurTeam
+    text-align: center
+    padding-top: 5rem
+.chefs4
+    text-align: center
+    display: flex
+    padding: 3rem 0rem 10rem 0rem
+    justify-content: center
+.chef1
+    margin: 0rem 4rem
+    border-bottom: 2px solid
+
+img
+    h4
+        border-bottom: 1px solid #dee0e2

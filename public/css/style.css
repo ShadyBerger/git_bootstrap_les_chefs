@@ -9530,6 +9530,10 @@ header h1 {
   font-size: 3rem;
 }
 
+.opac {
+  background: url("../../public/images/bottom_decoration_img.png") bottom repeat-x, linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
 .opacity1 {
   background-color: black;
   opacity: 0.8;
@@ -9621,7 +9625,7 @@ header h1 {
   margin-bottom: 7rem;
 }
 
-.titleOurStory {
+.titleSwag {
   font-family: Courgette;
   text-align: center;
 }
@@ -9643,13 +9647,15 @@ header h1 {
 .pOurStory {
   text-align: center;
   padding-top: 4rem;
+  padding: 2rem 13rem;
+  margin-bottom: 4rem;
 }
 
-i {
+.iSwag {
   color: #dee0e2;
   text-align: center;
 }
-i:hover {
+.iSwag:hover {
   color: red;
 }
 
@@ -9700,6 +9706,14 @@ i:hover {
   padding: 0rem 0.5rem 0rem 0.5rem;
 }
 
+.trianglesTop {
+  overflow: hidden;
+}
+
+.trianglesBottom {
+  overflow: hidden;
+}
+
 .corner1 {
   float: left;
 }
@@ -9716,17 +9730,13 @@ i:hover {
   float: left;
 }
 
-.trianglesBottom {
-  overflow: hidden;
-}
-
 .blackBG {
   background-image: url(../../public/images/team_background.jpg);
   background-size: cover;
   display: flex;
 }
 
-.h1OurTeam {
+.h1Swag {
   text-align: center;
   padding-top: 5rem;
 }
@@ -9745,6 +9755,159 @@ i:hover {
 
 img h4 {
   border-bottom: 1px solid #dee0e2;
+}
+
+.borderRound1 {
+  border-radius: 2rem;
+  border: 0.6rem solid #dee0e2;
+}
+
+.txtLeft {
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.redQuote1 {
+  background-color: red !important;
+  border-radius: 1rem;
+  margin: 0rem 6.5rem;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.6rem;
+}
+
+.btnKnoMo {
+  margin: 1rem 35rem;
+}
+
+.callUs {
+  color: white;
+}
+
+.formSwag {
+  background-image: url(../../public/images/book_table_bg.jpg);
+  text-align: center;
+  background-size: cover;
+  border-radius: 2rem;
+  padding: 0rem 2rem;
+  margin: 6rem;
+}
+
+input {
+  border-radius: 1rem;
+  padding: 1rem 10rem 1rem 2rem;
+  margin: 1rem -3rem 0rem -2rem;
+}
+
+form {
+  margin: 4rem 11rem;
+}
+
+.containerSwag {
+  padding-bottom: 8rem;
+}
+
+.strongP {
+  font-size: 2rem;
+}
+
+.vegetablesBackground1 {
+  background-image: url(../../public/images/main_bg.jpg);
+  padding-bottom: 7rem;
+}
+
+.pushdown2 {
+  padding-top: 8rem;
+}
+
+.clientTestimonials {
+  background-image: url("../../public/images/testimonials_background.jpg");
+  background-size: cover;
+  padding-bottom: 7rem;
+}
+
+.imgTesti1 {
+  border-radius: 8rem;
+  border: 5px white solid;
+  margin: 0rem 0rem 0rem 2rem;
+}
+
+.imgTesti2 {
+  border-radius: 8rem;
+  border: 5px white solid;
+  margin: 0rem 7rem 0rem 0rem;
+}
+
+.pTesti {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.borderTesti {
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+.pushdown1 {
+  padding-bottom: 10rem;
+}
+
+.titleWhite {
+  color: white;
+}
+
+.manager {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.redSign {
+  background-color: red;
+  margin: 0rem 40rem;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.borderSwag {
+  border-bottom: 1px solid white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bgFooter {
+  background-image: url(../../public/images/footer_background.jpg);
+  padding: 5rem 0rem;
+}
+
+.containerFooter {
+  margin: 0rem 9rem;
+}
+
+.iSpace {
+  padding-right: 2rem;
+}
+
+.dFlexible {
+  display: flex;
+}
+
+.redTag {
+  background-color: red;
+  border-radius: 1rem;
+  color: white;
+  border: 1px solid white;
+  padding: 0.4rem 1rem;
+  margin: 0.5rem 1rem 0.5rem 0rem;
+}
+
+.pushdown3 {
+  padding-bottom: 2rem;
+}
+
+.pushdown4 {
+  padding-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
